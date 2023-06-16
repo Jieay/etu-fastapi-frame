@@ -27,3 +27,4 @@
 from .msg import Msg
 from .token import Token, TokenPayload, GetToken
 from .user import User, UserCreate, UserInDB, UserUpdate
+from .demos import Item, ModelName
