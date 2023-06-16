@@ -1,0 +1,30 @@
+{
+  "name": "db_user",
+  "version": 8,
+  "databases": [
+    {
+      "email": "dage@qq.com",
+      "is_active": true,
+      "is_superuser": true,
+      "name": "dage",
+      "id": 1,
+      "password": "$2b$12$4NmMoCraC4Rp2QbhzG2FY.YjC/7jWPLrv7aQTu.Ml2srrPZJ1vLC2"
+    },
+    {
+      "email": "xiaohe@qq.com",
+      "is_active": true,
+      "is_superuser": false,
+      "name": "xiaohe",
+      "id": 2,
+      "password": "$2b$12$1xCYCIi4XB/HfuzpeGMv3O675BC7igfwmikzywlWKhqWfa4/0moni"
+    },
+    {
+      "email": "qinhan@qq.com",
+      "is_active": true,
+      "is_superuser": false,
+      "name": "qinhan",
+      "id": 3,
+      "password": "$2b$12$wcBHrkR0EPZmeFhLWKKtGecYQXPJ49g8kDpeT3kHxVF3jZqH9r2YS"
+    }
+  ]
+}

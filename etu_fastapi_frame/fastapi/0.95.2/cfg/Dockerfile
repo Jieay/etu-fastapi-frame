@@ -1,0 +1,13 @@
+FROM jieay/python:3.10-slim
+
+WORKDIR /code
+
+COPY ./requirements.txt /code/requirements.txt
+COPY ./app /code/app
+
+RUN pip install --no-cache-dir --upgrade --trusted-host mirrors.aliyun.com -i \
+    https://mirrors.aliyun.com/pypi/simple/ -r /code/requirements.txt
+
+ENV PYTHONPATH=/code
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8050"]
