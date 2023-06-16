@@ -83,6 +83,7 @@ def check_url_path_is_white(url_path) -> bool:
         "/openapi.json",
         "/login/access-token",
         "/api/access-token",
+        "/health/check",
     ]
     white_list_prefix = [
         "/docs",

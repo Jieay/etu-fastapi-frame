@@ -80,6 +80,7 @@ def check_url_path_is_white(url_path) -> bool:
     white_list_exact = [
         "/openapi.json",
         "/api/access-token",
+        "/health/check",
     ]
     white_list_prefix = [
         "/docs",
