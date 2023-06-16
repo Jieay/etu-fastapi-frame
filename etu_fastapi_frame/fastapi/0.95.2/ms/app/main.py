@@ -2,9 +2,13 @@
 # @Time    : 2023/6/1 16:21
 # @Author  : Jieay
 # @File    : main.py
-
+import sys
 import uvicorn
 import logging.config
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(BASE_DIR))
 
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware

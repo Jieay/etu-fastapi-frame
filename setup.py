@@ -28,9 +28,7 @@ setup(
     include_package_data=True,
 
     # 依赖包, 应用到的第三方库
-    install_requires=[
-        'Python>=3.7'
-    ],
+    install_requires=[],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
