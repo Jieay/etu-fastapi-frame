@@ -34,5 +34,5 @@
 4.1 启动容器   
 ```shell
 # 启动服务
-docker run -d --name demo-eff -p 8050:8050 image:tag
+docker run -d --name demo-eff -p 8051:8051 image:tag
 ```
